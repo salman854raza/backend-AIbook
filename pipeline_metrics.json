@@ -1,0 +1,40 @@
+{
+  "session_id": "session_1768230610",
+  "start_time": "2026-01-12T20:10:10.749200",
+  "end_time": "2026-01-12T20:10:19.144083",
+  "total_pages_crawled": 0,
+  "total_chunks_processed": 0,
+  "total_embeddings_generated": 0,
+  "total_vectors_stored": 0,
+  "failed_operations": 0,
+  "successful_operations": 0,
+  "processing_times": [],
+  "url_stats": {
+    "total_urls": 0,
+    "processed_urls": 0,
+    "failed_urls": 0,
+    "skipped_urls": 0
+  },
+  "chunk_stats": {
+    "total_chunks": 0,
+    "valid_chunks": 0,
+    "invalid_chunks": 0,
+    "avg_chunk_size": 0,
+    "total_content_chars": 0
+  },
+  "embedding_stats": {
+    "total_embeddings": 0,
+    "failed_embeddings": 0,
+    "embedding_generation_time": 0,
+    "avg_embedding_size": 0
+  },
+  "storage_stats": {
+    "total_store_operations": 0,
+    "successful_stores": 0,
+    "failed_stores": 0,
+    "storage_time": 0
+  },
+  "total_duration": 8.3949134349823,
+  "success_rate": 0,
+  "current_duration": 8.395322799682617
+}

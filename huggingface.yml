@@ -1,0 +1,15 @@
+# Hugging Face Space Configuration
+version: "1.0"
+services:
+  rag-chatbot:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+    secrets:
+      - COHERE_API_KEY
+      - OPENROUTER_API_KEY
+      - QDRANT_URL
+      - QDRANT_API_KEY
+      - DOCUSAURUS_URL

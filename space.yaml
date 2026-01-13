@@ -1,0 +1,15 @@
+# Hugging Face Space configuration
+type: docker
+gpu: false  # Set to true if you need GPU acceleration
+secrets:
+  - COHERE_API_KEY
+  - OPENROUTER_API_KEY
+  - QDRANT_API_KEY
+  - QDRANT_URL
+  - DOCUSAURUS_URL
+env:
+  - QDRANT_COLLECTION_NAME=humanoid_ai_book
+  - CHUNK_SIZE=1000
+  - CHUNK_OVERLAP=100
+  - CRAWL_DELAY=1.0
+  - MAX_DEPTH=5
