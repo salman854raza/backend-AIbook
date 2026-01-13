@@ -55,3 +55,6 @@ htmlcov/
 # Distribution
 *.tar.gz
 *.whl
+
+# Claude temporary files
+tmpclaude-*.cwd
