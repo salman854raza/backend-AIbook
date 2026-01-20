@@ -6,13 +6,20 @@ authors = [{name = "AI Engineer", email = "engineer@example.com"}]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.5.0",
     "requests>=2.31.0",
     "beautifulsoup4>=4.12.0",
     "cohere>=4.0.0",
     "qdrant-client>=1.7.0",
     "python-dotenv>=1.0.0",
-    "pytest>=7.0.0",
     "openai>=1.0.0",
+    "google-generativeai>=0.6.0",
+    "httpx>=0.25.0",
+    "numpy>=1.21.0",
+    "redis>=5.0.0",
+    "pytest>=7.0.0",
 ]
 
 [build-system]

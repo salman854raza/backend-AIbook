@@ -58,7 +58,7 @@ def main():
             logger.warning("Ingestion pipeline did not complete successfully, continuing anyway...")
 
         # Determine the port for Hugging Face Spaces
-        port = int(os.getenv("PORT", 8000))
+        port = int(os.getenv("PORT", 7860))
         logger.info(f"Starting server on port {port}")
 
         # Start the FastAPI server

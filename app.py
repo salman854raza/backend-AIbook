@@ -24,11 +24,11 @@ def run_app():
 
     if is_space:
         # In Hugging Face Space, use the PORT environment variable
-        port = int(os.getenv("PORT", 8000))
+        port = int(os.getenv("PORT", 7860))
         host = "0.0.0.0"
     else:
         # Local development
-        port = int(os.getenv("PORT", 8000))
+        port = int(os.getenv("PORT", 7860))
         host = "0.0.0.0"
 
     print(f"Starting server on {host}:{port}")

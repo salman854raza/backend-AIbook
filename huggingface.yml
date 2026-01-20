@@ -4,9 +4,9 @@ services:
   rag-chatbot:
     build: .
     ports:
-      - "8000:8000"
+      - "7860:7860"
     environment:
-      - PORT=8000
+      - PORT=7860
     secrets:
       - COHERE_API_KEY
       - OPENROUTER_API_KEY
